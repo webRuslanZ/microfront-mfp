@@ -1,9 +1,15 @@
 import React from "react";
 import { mount } from "marketing/MarketingApp";
+import MarketingApp from "./components/MarketingApp";
 
-console.log('--->', mount)
 const App = () => {
-  return <h1>Hi there!!!</h1>;
+  return (
+    <div>
+      <h1>Hu there!</h1>
+      <hr />
+      <MarketingApp />
+    </div>
+  );
 };
 
 export default App;
